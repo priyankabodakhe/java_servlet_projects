@@ -1,0 +1,34 @@
+<web-app>
+    <servlet>
+        <servlet-name>htmlname</servlet-name>
+        <servlet-class>com.tot.servlet.HtmlServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>htmlname</servlet-name>
+        <url-pattern>/htmlurl</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>xmlname</servlet-name>
+        <servlet-class>com.tot.servlet.XMLServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>xmlname</servlet-name>
+        <url-pattern>/xmlurl</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>excelname</servlet-name>
+        <servlet-class>com.tot.servlet.ExcelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>excelname</servlet-name>
+        <url-pattern>/excelurl</url-pattern>
+    </servlet-mapping>
+     <servlet>
+        <servlet-name>wordname</servlet-name>
+        <servlet-class>com.tot.servlet.WordServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>wordname</servlet-name>
+        <url-pattern>/wordurl</url-pattern>
+    </servlet-mapping>
+</web-app>
